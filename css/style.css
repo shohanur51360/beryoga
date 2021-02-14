@@ -1,0 +1,676 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/***********************************************
+    *** Global css code start ***
+************************************************/
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/***********************************************
+    *** Global css code end ***
+************************************************/
+
+/***********************************************
+    *** Header-section css code start ***
+************************************************/
+.header-section{
+    width: 100%;
+    height: 4702px;
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.logo-part {
+    width: 100%;
+    margin: 37px 0px 0px 0px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ff6a6d;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 41px 0px 357px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #8ba7bc;
+    font-size: 16px;
+    font-weight: 600;
+     margin: 0px 41px 0px 0px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff6a6d;
+}
+.btn-1{
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    background: #ff6a6d;
+    color: #ffffff;
+    transition: 0.8s;
+    border: 1px solid#ff6a6d;
+}
+.btn-1:hover{
+    color: #fff;
+    border: 1px solid#ff6a6d;
+    background: #ff6a6d;
+    box-shadow: 1px 10px 15px#ff6a6d;
+    
+}
+/***********************************************
+    *** Header-section css code end ***
+************************************************/
+
+/***********************************************
+    *** Banner-section css code start ***
+************************************************/
+.banner-section {
+    width: 100%;
+    margin: 107px 0px 0px 0px;
+}
+.banner-inner{
+    width: 100%;
+    margin: 0px 0px 0px 113px;
+}
+.banner-inner h1 {
+    color: #3b3838;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 36px;
+    font-family: 'Reggae One', cursive;
+}
+.banner-inner h4 {
+    color: #5c6c6b;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0px 0px 47px 0px;
+}
+.btn-2{
+    padding: 8px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    background: #ff6a6d;
+    color: #ffffff;
+    transition: 0.8s;
+    border: 1px solid#ff6a6d;
+    margin-right: 5px;
+    box-shadow: 1px 10px 15px#ff6a6d;
+}
+.btn-2:hover{
+    color: #fff;
+    border: 1px solid#ff6a6d;
+    background: #ff6a6d;
+    transition: 0.5s;
+    
+}
+.btn-3{
+    padding: 8px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    background: transparent;
+    color: #ff6a6d;
+    transition: 0.8s;
+    border: 1px solid#ff6a6d;
+   
+}
+.btn-3:hover{
+    color: #ffffff;
+    border: 1px solid#ff6a6d;
+    background: #ff6a6d;
+    box-shadow: 1px 10px 15px#ff6a6d;
+    transition: 0.8s;
+}
+/***********************************************
+    *** Banner-section css code end ***
+************************************************/
+
+/***********************************************
+    *** About-section css code start ***
+************************************************/
+.about-section{
+    width: 100%;
+    margin: 241px 0px 0px 0px;
+    text-align: center;
+}
+.about-inner{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.about-inner h1 {
+    color: #3b3838;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px 0px 22px 0px;
+    font-family: 'Reggae One', cursive;
+}
+.about-inner h4{
+    color: #616262;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 0px 0px;
+}
+.about-bottom {
+    width: 100%;
+    margin: 355px 0px 0px 69px;
+}
+.about-bottomm {
+    width: 100%;
+    margin: 355px 0px 0px 138px;
+}
+.about-bottommm {
+    width: 100%;
+    margin: 355px 0px 0px 185px;
+}
+.at-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.at-1 h1 {
+    color: #3b3838;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0px 0px 25px 0px;
+}
+.at-1 h4 {
+    color: #616262;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+/***********************************************
+    *** About-section css code end ***
+************************************************/
+
+/***********************************************
+    *** Define-section css code start ***
+************************************************/
+.define-section{
+    width: 100%;
+    margin: 130px 0px 0px 0px;
+}
+.drfine-inner{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.drfine-inner h1 {
+    color: #3b3838;
+    font-size: 41px;
+    font-weight: 600;
+    margin: 0px 0px 50px 102px;
+    font-family: 'Reggae One', cursive;
+}
+.define-bottom{
+    width: 100%;
+    margin: 0px 0px 0px 119px;
+}
+.define-bottom img {
+    margin-right: 11px;
+    width: 25px;
+}
+.define-bottom p {
+    color: #3f3f3f;
+    font-size: 21px;
+    font-weight: 600;
+}
+.define-bottom h5 {
+    color: #767777;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 31px;
+    margin-left: 43px;
+    margin-bottom: 42px;
+}
+/***********************************************
+    *** Define-section css code end ***
+************************************************/
+
+/***********************************************
+    *** Informed-section css code start ***
+************************************************/
+.informed-section{
+    width: 100%;
+    margin: 115px 0px 0px 0px;
+}
+.informed-inner{
+    width: 100%;
+    margin: 0px 0px 0px 83px;
+}
+.informed-inner h4 {
+    color: #7b7c7c;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px 16px 0px;
+    font-style: italic;
+}
+.informed-inner h1 {
+    margin: 0px 0px 52px 0px;
+    color: #3b3838;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Reggae One', cursive;
+}
+.informed-inner h5 {
+    margin: 0px 0px 48px 45px;
+    color: #6c6d6d;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.btn-6{
+    margin: 0px 0px 0px 45px;
+    color: #3cbef1;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    background: transparent;
+    border: 0px;
+    transition: 0.8s;
+}
+.btn-6:hover{
+    color: #ffffff;
+    border: 1px solid#ff6a6d;
+    background: #ff6a6d;
+    box-shadow: 1px 10px 15px#ff6a6d;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+/***********************************************
+    *** Informed-section css code end ***
+************************************************/
+
+/***********************************************
+    *** Class-section css code start ***
+************************************************/
+.class-section{
+    width: 100%;
+    margin:205px 0px 0px 0px;
+}
+.class-inner{
+    width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.class-inner h1 {
+    margin: 0px 0px 65px 10px;
+    color: #3b3838;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    font-family: 'Reggae One', cursive;
+}
+.class-inner h4 {
+    margin: 0px 0px 59px 109px;
+    color: #818181;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.btn-7 {
+    margin: 0px 0px 0px 112px;
+    color: #3cbef1;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+    background: transparent;
+    border: 0px;
+    transition: 0.8s;
+}
+.btn-7:hover{
+    color: #ffffff;
+    border: 1px solid#ff6a6d;
+    background: #ff6a6d;
+    box-shadow: 1px 10px 15px#ff6a6d;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+/***********************************************
+    *** Class-section css code end ***
+************************************************/
+
+/***********************************************
+    *** Card-section css code end ***
+************************************************/
+.card-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.card-1 {
+    width: 100%;
+    margin: 147px 0px 0px 31px;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 582px;
+    box-shadow: 1px 10px 15px#fddcdc;
+    border-radius: 20px;
+}
+.currency-1 {
+    width: 100%;
+    padding: 40px;
+    margin: 0px 0px 0px -1px;
+}
+.currency-1 i {
+    font-size: 25px;
+    background: #79c2fd;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 9px 14px 0px 18px;
+}
+.currency-1 p {
+    font-size: 14px;
+    color: #7e7c7c;
+}
+.currency-1 .seven {
+    margin: -83px 13px 0px 27px;
+}
+.currency-1 .eight{
+    margin: 27px 0px 0px 0px;
+}
+.currency-1 .nine {
+    margin: 94px 0px 0px 10px;
+}
+.currency-1 h5 {
+    color: #a4a3a3;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 38px 0px 55px 85px;
+    font-style: italic;
+}
+.btn-8 {
+    margin: 0px 0px 0px 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    background: #6fd8f8;
+    padding: 21px 24px;
+    border-radius: 37px;
+    border: 1px solid #6fd8f8;
+    transition: 0.8s;
+    text-transform: uppercase;
+    box-shadow: 1px 10px 15px#6fd8f8;
+}
+.btn-8:hover{
+    color: #6fd8f8;
+    border: 1px solid#6fd8f8;
+    background: transparent;
+}
+.card-2 {
+    width: 125%;
+    margin: 103px 0px 0px 0px;
+    background-image: url(../images/6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 655px;
+    box-shadow: 1px 10px 15px#f4cece;
+    border-radius: 20px;
+}
+.currency-2 {
+    width: 100%;
+    padding: 40px;
+    margin: 0px 0px 0px 0px;
+}
+.currency-2 h1 {
+    margin: -11px 0px 59px 0px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.currency-2 i {
+    font-size: 25px;
+    background: #79c2fd;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0px 14px 4px 0px;
+}
+.currency-2 p {
+    font-size: 14px;
+    color: #7e7c7c;
+}
+.currency-2 .ten {
+    margin: -83px 13px 0px 0px;
+}
+.currency-2 .eleven{
+    margin: 22px 0px 0px 0px;
+}
+.currency-2 .twelve {
+    margin: 94px 0px 0px 4px;
+}
+.currency-2 h5 {
+    color: #a4a3a3;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 37px 0px 76px 60px;
+    font-style: italic;
+}
+.btn-9 {
+    margin: 0px 0px 0px 70px;
+    color: #ffffff;
+    border: 1px solid#ff6a6d;
+    background: #ff6a6d;
+    box-shadow: 1px 10px 15px#ff6a6d;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 21px 24px;
+    border-radius: 37px;
+    transition: 0.8s;
+    text-transform: uppercase;
+}
+.btn-9:hover{
+    border: 1px solid#ff6a6d;
+    color: #ff6a6d;
+    background: transparent;
+}
+
+.card-3 {
+    width: 100%;
+    margin: 147px 0px 0px 56px;
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 582px;
+    box-shadow: 1px 10px 15px#fddcdc;
+    border-radius: 20px;
+}
+.currency-3 {
+    width: 100%;
+    padding: 40px;
+    margin: 0px 0px 0px 0px;
+}
+.currency-3 h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #6d6d6d;
+    text-align: center;
+    margin: 7px 0px 33px 0px;
+}
+.currency-3 i {
+    font-size: 25px;
+    background: #79c2fd;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 9px 14px 0px 18px;
+}
+.currency-3 p {
+    font-size: 14px;
+    color: #7e7c7c;
+}
+.currency-3 .seven {
+    margin: -83px 13px 0px 27px;
+}
+.currency-3 .eight{
+    margin: 27px 0px 0px 0px;
+}
+.currency-3 .nine {
+    margin: 94px 0px 0px 10px;
+}
+.currency-3 h5 {
+    color: #a4a3a3;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 38px 0px 55px 73px;
+    font-style: italic;
+}
+.btn-8 {
+    margin: 0px 0px 0px 30px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    background: #6fd8f8;
+    padding: 21px 24px;
+    border-radius: 37px;
+    border: 1px solid #6fd8f8;
+    transition: 0.8s;
+    text-transform: uppercase;
+    box-shadow: 1px 10px 15px#6fd8f8;
+}
+.btn-8:hover{
+    color: #6fd8f8;
+    border: 1px solid#6fd8f8;
+    background: transparent;
+}
+/***********************************************
+    *** Card-section css code end ***
+************************************************/
+
+/***********************************************
+    *** Contact-section css code start ***
+************************************************/
+.contact-section {
+    width: 100%;
+    margin: 110px 0px 0px 0px;
+}
+.contact-part {
+    width: 100%;
+    margin: 0px 0px 0px 170px;
+}
+.contact-part h1 {
+    margin: 0px 0px 25px 0px;
+    color: #56686c;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact-part h4 {
+    margin: 0px 0px 20px 0px;
+    color: #56686c;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.contact-part h5 {
+    margin: 0px 0px 0px 0px;
+    color: #56686c;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 500;
+}
+.about-part {
+    width: 100%;
+    margin: 0px 0px 0px 99px;
+}
+.about-part h1{
+    margin: 0px 0px 25px 0px;
+    color: #56686c;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about-part h4{
+    margin: 0px 0px 20px 0px;
+    color: #56686c;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.programme-part{
+    width: 100%;
+    margin: 0px 0px 0px -4px;
+}
+.programme-part h1{
+    margin: 0px 0px 25px 0px;
+    color: #56686c;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.programme-part h4{
+    margin: 0px 0px 20px 0px;
+    color: #56686c;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.support-part{
+    width: 100%;
+    margin: 0px 0px 0px -51px;
+}
+.support-part h1{
+   margin: 0px 0px 25px 0px;
+    color: #56686c;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.support-part h4{
+    margin: 0px 0px 20px 0px;
+    color: #56686c;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: 500;
+}
+/***********************************************
+    *** Contact-section css code end ***
+************************************************/
+
+/***********************************************
+    *** Footer-section css code start ***
+************************************************/
+.footer-section {
+    width: 100%;
+    margin: 70px 0px 0px 0px;
+    text-align: center;
+}
+.footer-section h3{
+    margin: 0px 0px 0px 0px;
+    color: #748b91;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+/***********************************************
+    *** Footer-section css code end ***
+************************************************/
